@@ -1,0 +1,340 @@
+body {
+    background-color:#aeb9ba;
+}
+
+#header {
+    width:1000px;
+    height:120px;
+    background-color:#aeb9ba;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10px;
+    margin-top:0px;
+} 
+
+#listing {
+    width:1000px;
+    height:30px;
+    background-color:#aeb9ba;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#contents {
+    width:1000px;
+    height:auto;
+    background-color:#fff;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10px;
+    position:inherit;
+    padding-bottom:20px;
+    padding-top:10px;
+} 
+
+#footer {
+    width:1000px;
+    height:20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#logo {
+    float:left;
+}
+
+h1 {
+    font-size:40px;
+    color:#f00;
+    
+}
+
+#title1 {
+    float:left;
+    margin-left:50px;
+    margin-top:20px;
+}
+
+#homeLink {
+    float:right;
+    margin-right:20px;
+    margin-top:20px;
+}
+
+#homeTag {
+    padding-left:40px;
+    padding-right:40px;
+}
+
+h2 {
+    font-family:DokChampa;
+    margin-bottom:0px;
+}
+
+#line {
+    border:solid 1px #433ea3;
+    margin-bottom:10px;
+}
+
+#contents p {
+    margin-left:70px;
+    margin-bottom:0px;
+    margin-top:5px;
+    font-family:Kalinga;
+}
+
+#signupInfo {
+    margin-left:50px;
+    margin-right:50px;
+    width:900px;
+    height:250px;
+    border:solid 1px #0d5eb6;
+}
+
+#pic {
+    width:15%;
+    margin-bottom:20px;
+    margin-top:20px;
+    margin-left:40px;
+}
+
+#basicInfo {
+    float:right;
+    margin-right:80px;
+    margin-top:20px;
+}
+
+.tagRow {
+    padding-bottom:5px;
+}
+
+.tagTitle {
+    font-family:Aharoni;
+}
+
+.tagSpace {
+    padding-left:30px;
+}
+
+.tagContent {
+    font-family:Andalus;
+}
+
+#courseInfo {
+    margin-left:50px;
+    margin-right:50px;
+    width:900px;
+    height:400px;
+    border:solid 1px #0d5eb6;
+}
+
+#basicCourse {
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+#courseInfo table tr th {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#courseInfo table tr td span {
+    margin-left:4px;
+    margin-right:2px;
+    color:blue;
+}
+
+#courseInfo table tr th {
+    font-family:GungsuhChe;
+}
+
+#courseInfo table tr td {
+    font-family:Centaur;
+}
+
+#otherInfo {
+    margin-left:50px;
+    margin-right:50px;
+    width:900px;
+    height:700px;
+    border:solid 1px #0d5eb6;
+}
+
+#rightOther {
+    padding:10px 10px 10px 10px;
+    border-left:dotted 1px;
+    float:right;
+    width:200px;
+    height:600px;
+    margin-top:30px;
+}
+
+#rightOther h4 {
+    margin-left:55px;
+    margin-top:auto;
+}
+
+#rightOther ul {
+    font-family:Andalus;
+}
+
+#basicInfoImg {
+    float:right;
+}
+
+#dimensionImg {
+    margin-top:80px;
+    float:left;
+}
+
+#footer p {
+    margin-left:300px;
+    color:red;
+}
+
+.signupLabel{
+	margin-right:25px;
+}
+
+#signup{
+	margin-left:200px;
+	margin-top:40px;
+	width:400px;
+}
+
+.signupText{
+	float:right;
+}
+
+#catInfo {
+    margin-left:50px;
+    margin-right:50px;
+    width:900px;
+    height:300px;
+    border:solid 1px #0d5eb6;
+}
+
+#createcat{
+	margin-left:100px;
+	margin-top:40px;
+	width:650px;
+}
+
+.catText{
+	float:right;
+	width:400px;
+	line-height:20px;
+}
+
+#catTable{
+	margin-left:100px;
+	width:800px;
+	border:1px solid black;
+}
+
+.catColumn{
+	text-align:left;
+	font-size:20px;
+	font-family:courier;
+}
+
+th{
+	margin-left:200px;
+	background-color:#aeb9ba;
+}
+
+.numTopic{
+	text-align:center;
+	font-family:Script;
+	font-size:25px;
+}
+
+.catname{
+	margin-left:0px;
+}
+
+#catForm a{
+	margin-left:70px;
+	font-family:Verdana;
+	font-size:22px;
+}
+
+.numPost{
+	text-align:center;
+	font-family:Script;
+	font-size:25px;
+}
+
+#topTable{
+	margin-left:50px;
+	width:900px;
+	border:1px solid black;
+}
+
+#topicForm{
+	margin-left:10px;
+	font-family:Verdana;
+	font-size:22px;
+}
+
+#topTable th{
+	text-align:center;
+}
+
+#topTable p{
+	margin-left:10px;
+}
+
+.owner{
+	font-family:Verdana;
+	font-size:20px;
+	text-align:center;
+}
+
+.createdate{
+	font-family:Verdana;
+	font-size:20px;
+	text-align:center;
+}
+
+#postHeader h2{
+	margin-left:150px;
+	margin-top:10px;
+	font-family:Comic Sans;
+}
+
+#postHeader p{
+	margin-left:150px;
+	margin-top:10px;
+	font-family:Comic Sans;
+}
+
+#postForm{
+	margin-left:50px;
+	margin-top:10px;
+	width:600px;
+}
+
+.postText{
+	float:right;
+	width:300px;
+}
+
+#backMsg{
+	margin-left:200px;
+	margin-top:10px;
+	font-family:Comic Sans;
+	font-size:15px;
+	color:red;
+}
+
+.postLabel{
+	font-size:20px;
+	font-family:Comic Sans;
+}
+
+#postImg{
+	float:left;
+	margin-left:90px;
+}

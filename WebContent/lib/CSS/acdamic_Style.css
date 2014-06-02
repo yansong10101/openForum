@@ -1,0 +1,30 @@
+﻿body {
+}
+
+#acdam {
+    margin-left:50px;
+    margin-right:50px;
+    width:900px;
+    height:440px;
+    border:solid 1px #0d5eb6;
+    margin-top:20px;
+}
+
+#Table1 {
+    margin-left:20px;
+    margin-top:10px;
+}
+
+#petition {
+    margin-left:50px;
+    margin-right:50px;
+    width:900px;
+    height:50px;
+    border:solid 1px #0d5eb6;
+    margin-top:20px;
+}
+
+#petInfo {
+    margin-left:20px;
+    margin-top:10px;
+}

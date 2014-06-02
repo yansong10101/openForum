@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>Navigation List</title>
+    <script src="/myJspWeb/lib/js/nav.js"></script>
+    <link rel="stylesheet" href="/myJspWeb/lib/CSS/nav.css" />
+    <link rel="stylesheet" href="/myJspWeb/lib/CSS/index_Style.css" />
+</head>
+<body>
+	<div id="listing">
+        <ul id="sddm">
+            <li><a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()">Admission</a></li>
+            <li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">Learning resource</a></li>
+            <li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">Records</a>
+                <div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="myCourse.html">My Courses</a>
+                    <a href="personalInfo.html">Personal Info</a>
+                    <a href="adminInfo.html">Admission Info</a>
+                    <a href="acdamicInfo.html">Academic Info</a>
+                    <a href="attendanceInfo.html">Attendance Records</a>
+                </div>
+            </li>
+            <li><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()">Service Request</a>
+                <div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="CTP.html">CPT Application</a>
+                    <a href="transcriptPage.html">Transcripts</a>
+                </div>
+            </li>
+            <li><a href="#" onmouseover="mopen('m5')" onmouseout="mclosetime()">Registration</a></li>
+            <li><a href="#" onmouseover="mopen('m6')" onmouseout="mclosetime()">e-Services</a>
+                <div id="m6" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="jobPage.html">Job Board</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

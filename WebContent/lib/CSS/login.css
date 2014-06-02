@@ -1,0 +1,51 @@
+body {
+    background-color:#aeb9ba;
+}
+
+#header {
+    margin-left:18%;
+    margin-right:18%;
+    margin-bottom:4%
+}
+
+#backgroudHeader{
+	background-color:#5970B2;
+	height:50px;
+}
+.headerLink{
+	position:absolute;
+    margin-right:18%;
+	top:25px;
+	font-family:sans-serif;
+	color:white;
+}
+#block {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:4%;
+    padding:10px 5px 10px 10px;
+    width:400px;
+    border:5px solid #ded0d0;
+}
+.button {
+    max-height:40px;
+    margin-right:20px;
+}
+#confirm {
+    margin-top:10px;
+    font-size:small;
+}
+h1 {
+    font-family:Comic Sans Ms;
+    text-align:center;
+    color:#2b2929;
+}
+
+.loginMsg{
+    margin-top:4%;
+}
+
+.loginMsg p{
+	margin-left:40%;
+    margin-right:40%;
+}

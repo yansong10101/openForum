@@ -1,0 +1,20 @@
+﻿body {
+}
+
+#contents {
+    height:1000px;
+}
+
+#jobBoard {
+    margin-left:50px;
+    margin-right:50px;
+    width:900px;
+    height:150px;
+    border:solid 1px #0d5eb6;
+    margin-top:20px;
+}
+
+#jobLayout {
+    margin-left:20px;
+    margin-top:20px;
+}

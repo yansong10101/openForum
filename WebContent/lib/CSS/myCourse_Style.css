@@ -1,0 +1,27 @@
+﻿body {
+}
+
+#courseHistory {
+    margin-left:50px;
+    margin-right:50px;
+    width:900px;
+    height:550px;
+    border:solid 1px #0d5eb6;
+}
+
+.general td {
+    padding-left:20px;
+    padding-right:10px;
+    font-family:Arial;
+}
+
+#courseHistory table {
+    margin-left:12px;
+    margin-top:10px;
+}
+
+.courseDate {
+}
+
+.finalGPA {    
+}

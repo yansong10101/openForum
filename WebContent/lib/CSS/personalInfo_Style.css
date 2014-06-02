@@ -1,0 +1,59 @@
+﻿body {
+}
+
+#personalInformation {
+    margin-left:50px;
+    margin-right:50px;
+    width:900px;
+    height:550px;
+    border:solid 1px #0d5eb6;
+    margin-top:20px;
+}
+
+#leftPersonal {
+    margin-left:10px;
+    margin-right:10px;
+    width:450px;
+    height:500px;
+    border:solid 1px #0d5eb6;
+    float:left;
+}
+
+#rightPersonal {
+    margin-left:10px;
+    margin-right:10px;
+    width:400px;
+    height:500px;
+    border:solid 1px #0d5eb6;
+    float:right;
+}
+
+#p1 {
+    float:left;
+    margin-left:40px;
+}
+
+#p2 {
+    float:right;
+    margin-right:250px;
+}
+
+#phoneInformation {
+    margin-left:20px;
+    margin-right:20px;
+}
+
+#phoneNumbers tr td {
+    padding-left:40px;
+    padding-right:20px;
+}
+
+#addresslist {
+    margin-left:20px;
+    margin-right:20px;
+}
+
+#ReferralInfo {
+    margin-left:20px;
+    margin-right:20px;
+}

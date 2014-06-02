@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Create Category</title>    
+    <script src="/myJspWeb/lib/js/nav.js"></script>
+    <link rel="stylesheet" href="/myJspWeb/lib/CSS/nav.css" />
+    <link rel="stylesheet" href="/myJspWeb/lib/CSS/index_Style.css" />
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+            <img src="images/npu_icon.png" />
+        </div>
+        <div id="title1">
+            <h1>Online Service Center</h1>
+        </div>
+        <div id="homeLink">
+            <a href="login.jsp">Logout</a>
+        </div>
+    </div>
+
+    <div id="listing">
+        <ul id="sddm">
+            <li><a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()">Admission</a> 
+            </li>
+            <li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">Learning resource</a>
+            </li>
+            <li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">Records</a>
+                <div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="myCourse.html">My Courses</a>
+                    <a href="personalInfo.html">Personal Info</a>
+                    <a href="adminInfo.html">Admission Info</a>
+                    <a href="acdamicInfo.html">Academic Info</a>
+                    <a href="attendanceInfo.html">Attendance Records</a>
+                </div>
+            </li>
+            <li><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()">Service Request</a>
+                <div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="CTP.html">CPT Application</a>
+                    <a href="transcriptPage.html">Transcripts</a>
+                </div>
+            </li>
+            <li><a href="#" onmouseover="mopen('m5')" onmouseout="mclosetime()">Registration</a>
+            </li>
+            <li><a href="#" onmouseover="mopen('m6')" onmouseout="mclosetime()">e-Services</a>
+                <div id="m6" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="jobPage.html">Job Board</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div id="contents">
+        <div id="homeTag">
+            <h2>Create Category</h2>
+            <div id="line"></div>
+        </div>
+
+        <div id="catInfo">
+            <form id="createcat" action="CreateCategory" method="GET">
+            	<p><label class="signupLabel">Category Name :</label><input class="catText" type="text" name="catname"></p>
+            	<p><label class="signupLabel">Description  :</label><input class="catText" type="text" name="description" style="height:100px;"></p>
+            	<br>
+            	<p><input type="submit" id="signupLabel" style="margin-top:70px;"></p>       	
+            </form>
+        </div>
+	</div>
+    <div id="footer">
+        <p>&copy; 2013 Northwestern Polytechnic University. All rights reserved.</p>
+    </div>
+</body>
+</html>
